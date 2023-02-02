@@ -1,6 +1,6 @@
 body {
-    font-family: arial, verdana;
-    background: #000000;
+    font-family: Arial, Verdana;
+    background-color: #000000;
     color: #ffffff;
     margin: 20px 20px 0px 20px;
 }
@@ -18,7 +18,7 @@ h2 {
 
 p {
     font-size: 24px;
-    padding: 10px 0px 0px 10px
+    padding: 10px 0px 0px 10px;
 }
 img {
     width: 250px;
@@ -27,31 +27,38 @@ img {
     margin-right: auto;
     border: dashed #ffffff 3px;
 }
-div {
+/* div {
     min-height: 125px;
     padding: 20px;
-    border: solid #ffffff 3px;
-}
+    border: 3px solid #FFFFFF;
+} */
 .introduction {
     border-radius: 15px;
     margin-top: 15px;
     line-height: 2;
+    min-height: 125px;
+    padding: 20px;
+    border: 3px solid #FFFFFF;
 }
 
 .red {
     background-color: #ff0000;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
+    border-bottom: 2px solid #FFFFFF;
+    border-left: 5px solid #FFFFFF;
+    min-height: 125px;
+    padding: 20px;
 }
 .blue{
     background-color: #0000ff;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
+    border-right: 5px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
     color: #C4C4C4;
+    min-height: 125px;
+    padding: 20px;
 }
 .blue h2{
     color: #C4C4C4;
@@ -61,23 +68,29 @@ div {
     background-color: #ffff00;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
+    border-bottom: 2px solid #FFFFFF;
+    border-left: 5px solid #FFFFFF;
     color: #000000;
+    min-height: 125px;
+    padding: 20px;
 }
 .yellow p{
     color: #707070;
 }
 .green{
-    background-color: #00EB00;
+    background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
+    border-right: 5px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
+    min-height: 125px;
+    padding: 20px;
 }
 footer{
     background: linear-gradient(to right, #000000, #0000ff 25%, #0066ff 70%, #000000);
     border: solid #ffffff 5px;
+    min-height: 125px;
+    padding: 20px;
 }
 
 footer p{
