@@ -1,1 +1,1 @@
-# Whitney Speck
+# 539w2023_hw2_simple_css
