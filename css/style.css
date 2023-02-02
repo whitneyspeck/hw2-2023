@@ -53,6 +53,9 @@ div {
     border-top: 2px;
     color: #C4C4C4;
 }
+.blue h2{
+    color: #C4C4C4;
+}
 
 .yellow{
     background-color: #ffff00;
@@ -62,6 +65,9 @@ div {
     border-left: 5px;
     color: #000000;
 }
+.yellow p{
+    color: #707070;
+}
 .green{
     background-color: #00EB00;
     text-align: left;
@@ -70,6 +76,12 @@ div {
     border-top: 2px;
 }
 footer{
-    background: linear-gradient(#000000 #0000ff 25% #0066ff 70% #000000);
+    background: linear-gradient(to right, #000000, #0000ff 25%, #0066ff 70%, #000000);
     border: solid #ffffff 5px;
+}
+
+footer p{
+        font-size: 20px;
+        text-align: right;
+        padding: 15px 15px 15px 0px;
 }
